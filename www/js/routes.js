@@ -47,7 +47,7 @@ angular.module('app.routes', [])
   })
 
   .state('tabsController.detalle', {
-    url: '/page5',
+    url: '/page5/:itemId',
     views: {
       'tab1': {
         templateUrl: 'templates/detalle.html',
